@@ -1,25 +1,27 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
 
-body{
+body {
     background-color: darkslateblue;
     color: wheat;
 }
-.continer{
+
+.continer {
     max-width: 1200px;
     margin: auto;
-    
+
 }
-.imgs img{
+
+.imgs img {
     width: 200px;
     /* background-color: black; */
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
     /* justify-content: space-around; */
@@ -27,16 +29,19 @@ body{
     /* word-wrap: inherit; */
     font-size: 800;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+
 }
-header{
+
+header {
     margin-bottom: 100px;
 }
-.headr{
+
+.headr {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-.code{
+
+.code {
     border: 2px solid black;
     padding: 10px;
     margin-bottom: 200px;
@@ -46,86 +51,168 @@ header{
 
 
 }
-.code:hover{
+
+.code:hover {
     transform: scale(1.1);
     border: wheat;
     background-color: gray;
-    
+
 }
-.div{
+
+.div {
     display: flex;
-     border: 2px solid black;
+    border: 2px solid black;
     padding: 10px;
     margin-bottom: 200px;
-    margin-top: 50px; 
+    margin-top: 50px;
     border-radius: 20px;
     transition: all 0.3s;
 
 }
-.div img{
+
+.div img {
     width: 800px;
 }
-.div:hover{
+
+.div:hover {
     transform: scale(1.1);
     border: wheat;
     background-color: gray;
-    
+
 }
 
 
 
 body {
-  color: #ddd;
-  font-family: 'Fira Code', monospace;
-  padding: 40px;
+    color: #ddd;
+    font-family: 'Fira Code', monospace;
+    padding: 40px;
 }
 
 h2 {
-  color: #fff;
-  margin-bottom: 20px;
+    color: #fff;
+    margin-bottom: 20px;
 }
 
 .code-container {
-  position: relative;
-  display: inline-block;
-  background-color: black;
-  color: green;
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    color: green;
 }
 
 pre {
-  border-radius: 10px;
-  padding: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  overflow-x: auto;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow-x: auto;
 }
 
 #copyBtn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: #2d2d2d;
-  color: #fff;
-  border: none;
-  padding: 6px 10px;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: 0.2s;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #2d2d2d;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
+#copyBtnn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #2d2d2d;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#copyBtnnn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #2d2d2d;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#copyBtnnnn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #2d2d2d;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+
 #copyBtn:hover {
-  background: #3a3a3a;
+    background: #3a3a3a;
 }
-.secimg{
-display: flex;
-gap: 30px;
-border: 2px solid black;
-padding: 10px;
-width: 1300px;
-transition: all 0.3s ease-in-out;
+
+#copyBtnn:hover {
+    background: #3a3a3a;
 }
-.secimg img{
+#copyBtnnn:hover {
+    background: #3a3a3a;
+}
+#copyBtnnnn:hover {
+    background: #3a3a3a;
+}
+.secimg {
+    display: flex;
+    gap: 30px;
+    border: 2px solid black;
+    padding: 10px;
+    width: 1300px;
+    transition: all 0.3s ease-in-out;
+    margin-top: 100px;
+}
+
+.secimg img {
     width: 700px;
 }
-.secimg:hover{
+
+.secimg:hover {
     transform: scale(1.1);
+}
+.imgs img{
+    width: 550px;
+    height: 250px;
+}
+
+
+.code-container{
+    width: 700px;
+}
+
+.code-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.code-container::-webkit-scrollbar-thumb{
+   background: #57ad10;
+    border-radius: 8px;
+}
+.code-container::-webkit-scrollbar-thumb:hover{
+ background: #0356ef;
+}
+
+.tekimg img{
+width: 700px;
+height: 200px;
 }
